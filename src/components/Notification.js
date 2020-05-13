@@ -7,8 +7,9 @@ const Notification = () => {
     border: "solid",
     padding: 10,
     borderWidth: 1,
+    display: notification.displayStyle,
   };
-  return <div style={style}>{notification}</div>;
+  return <div style={style}>{notification.text}</div>;
 };
 
 export default Notification;
