@@ -25,7 +25,6 @@ export const addVote = (id) => {
 };
 
 export const addAnecdote = (content) => {
-  console.log(content);
   return {
     type: "ADD_ANECDOTE",
     data: { content },
